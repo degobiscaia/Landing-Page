@@ -37,14 +37,9 @@ body {
 }
 
 .cabecalho-menu-item:hover {
-    padding: 4px;
     font-family: 'Rubik', sans-serif;
-    background-color: #9100fa;
-    font-weight: 700;
-    font-size: 16px;
-    border: none;
-    border-radius: 7px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .cabecalho-menu-botao{
@@ -65,6 +60,7 @@ body {
 }
 
 .cabecalho-menu-botao:hover {
+    cursor: pointer;
     background-color: #9100fa;
 }
 
@@ -119,6 +115,7 @@ body {
 
 .conteudo-principal-escrito-botao:hover {
     background-color: #9100fa;
+    cursor: pointer;
 }
 
 .conteudo-principal-imagem{
@@ -147,6 +144,7 @@ body {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .conteudo-secundario {
